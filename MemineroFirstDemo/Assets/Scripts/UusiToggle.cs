@@ -17,7 +17,7 @@ public class UusiToggle : MonoBehaviour
         {
             s1Button = Instantiate(Toggle);
             //Sets "ChoiceButtonHolder" as the new parent of the s1Button.
-            s1Button.transform.SetParent(ButtonListContent.transform);
+            s1Button.transform.SetParent(ButtonListContent.transform, false);
         }
         
     }
